@@ -60,4 +60,17 @@ object Moves {
 
   val surf          = new Move("Surf", 90, Water, 1.0, false)
 
+  val blazeKick     = new Move("Blaze Kick", 85, Fire, 0.9, true)
+
+  val braveBird     = new Move("Brave Bird", 120, Flying, 1.0, true)
+
+  val zenHeadbutt   = new Move("Zen Headbutt", 80, Psychic, 1.0, true)
+
+  val blizzard      = new Move("Blizzard", 110, Ice, 0.7, false)
+
+  val iceBeam       = new Move("Ice Beam", 90, Ice, 1.0, false)
+
+  val bodySlam      = new Move("Body Slam", 85, Normal, 1.0, true)
+
+  val doubleEdge    = new Move("Double-Edge", 120, Normal, 1.0, true)
 }

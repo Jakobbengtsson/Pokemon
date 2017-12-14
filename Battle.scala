@@ -14,7 +14,7 @@ object Battle {
   var crntPkmn: Pokemon =  player.party(Game.playerIndex)
 
   var optPkmn: Pokemon = opponent.party(Game.opponentIndex)
-    //new Pikachu(50, "Pikachu")
+
 
 
   def dmgCalc(atkr: Pokemon, dfndr: Pokemon, attack: Move): Unit = {
@@ -72,7 +72,7 @@ object Battle {
     else slowPrint(s"\n${optPkmn.nickname}s attack missed!")
   }
 
-  val choiceMsg: String = {
+  def choiceMsg: String = {
     val chc1 = crntPkmn.attacks(0)
     val chc2 = crntPkmn.attacks(1)
     val chc3 = crntPkmn.attacks(2)

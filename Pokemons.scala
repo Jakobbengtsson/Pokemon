@@ -47,6 +47,24 @@ class Charizard(var initLvl: Int, val name: String) extends Pokemon {
   //val dfc = 78 + level
 }
 
+class Blaziken(var initLvl: Int, val name: String) extends Pokemon {
+  var level = initLvl
+  var nickname = name
+  val baseHP = 80
+  val typing1 = Fire
+  val typing2 = Fight
+  val baseAtk = 120
+  val baseDfc = 70
+  val baseSpAtk = 110
+  val baseSpDfc = 70
+  val baseSpeed = 80
+  var HP = maxHP
+ // val dmg = 20
+  val attacks = Array(blazeKick, earthquake, slash, aerialAce)
+ // val atk = 84 + level
+  //val dfc = 78 + level
+}
+
 class Pikachu(var initLvl: Int, val name: String) extends Pokemon {
   var level = initLvl
   var nickname = name
@@ -179,5 +197,37 @@ class Swampert(var initLvl: Int, val name: String) extends Pokemon {
   var HP = maxHP
   //val dmg = 20
   val attacks = Array(meteorMash, earthquake, psychic, hyperBeam)
+}
+
+class Walrein(var initLvl: Int, val name: String) extends Pokemon {
+  var level = initLvl
+  var nickname = name
+  val baseHP = 110
+  val typing1 = Water
+  val typing2 = Ice
+  val baseAtk = 80
+  val baseDfc = 90
+  val baseSpAtk = 95
+  val baseSpDfc = 90
+  val baseSpeed = 65
+  var HP = maxHP
+  //val dmg = 20
+  val attacks = Array(brine, blizzard, iceBeam, bodySlam)
+}
+
+class Salamence(var initLvl: Int, val name: String) extends Pokemon {
+  var level = initLvl
+  var nickname = name
+  val baseHP = 95
+  val typing1 = Dragon
+  val typing2 = Flying
+  val baseAtk = 135
+  val baseDfc = 80
+  val baseSpAtk = 110
+  val baseSpDfc = 80
+  val baseSpeed = 100
+  var HP = maxHP
+  //val dmg = 20
+  val attacks = Array(flamethrower, dragonClaw, zenHeadbutt, doubleEdge)
 }
 

@@ -8,7 +8,7 @@ object Game {
   def slowPrint(text: String) = {
     for (i <- text.toVector) {
       print(i)
-      Thread.sleep(100)
+     // Thread.sleep(100)
     }
   }
 
